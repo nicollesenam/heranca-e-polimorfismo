@@ -1,0 +1,31 @@
+Projeto Banco Confie em Nós
+Crie uma classe denominada ContaCorrente com os seguintes atributos: 
+• conta;
+• agencia;
+• saldo;
+• nomeCliente;
+Implemente nessa classe, além dos métodos para garantir o encapsulamento 
+dos atributos, os métodos descritos a seguir: 
+Método Descrição
+sacar() Retorna valor 1 caso o saque seja realizado ou 0 se não houver 
+saldo suficiente na conta. Deverá receber como parâmetro o 
+valor a ser sacado.
+depositar() Realizar o depósito do valor recebido como parâmetro. Não deve 
+retornar valor.
+imprimir() Exibir na tela o conteúdo dos atributos da classe. Esse método 
+não retorna nada.
+Crie outra classe denominada PrincipalContaCorrente seguindo as seguintes 
+instruções: 
+• Criar um método main() conforme o padrão da linguagem Java. Nesse 
+método, criar um objeto do tipo da classe ContaCorrente usando o 
+comando: 
+ContaCorrente novoObj = new ContaCorrente();
+Para cada atributo do objeto, atribuir um valor coerente. Você pode utilizar a 
+classe Scanner para ler valores informados no console pelo usuário. Não se 
+esquecer de converter os valores lidos antes de atribuí-los a cada atributo.
+• Executar o método sacar(), informando um valor para ser sacado. Página 5 de 6
+• Executar o método imprimir() e analisar o que será impresso na tela 
+(console). 
+• Executar o método depositar(), informando um valor para ser sacado. 
+• Executar o método imprimir() e analisar o que será impresso na tela 
+(console). 
